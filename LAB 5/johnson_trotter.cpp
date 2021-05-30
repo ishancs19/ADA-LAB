@@ -75,7 +75,7 @@ void print_permutation(int n) {
         a[i] = i+1;
         cout<<a[i];
     }
-    cout<<endl;
+    cout<<" ";
     for(int i = 0; i < n; i++) {
         dir[i] = 0;
     }
